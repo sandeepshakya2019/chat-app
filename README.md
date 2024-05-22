@@ -1,12 +1,12 @@
 
 # Chat App
 
-This is the chat app created using the MERN Technology.
+This is the chat app created using MERN Technology.
 
-Frontend : ReactJS, Redux, React-router, Socket.io, Material UI
-Backend : NodeJS, ExpressJs, Socket.io
+Frontend: ReactJS, Redux, React-router, Socket.io, Material UI    
+Backend: NodeJS, ExpressJs, Socket.io
 
-Database : Mongodb (Mongoose as ODM)
+Database: MongoDB (Mongoose as ODM)
 
 ## Video related to the app
 
@@ -15,8 +15,8 @@ https://github.com/sandeepshakya2019/chat-app/assets/51978973/f71f841c-342c-4cbc
 ## To Run the backend : 
 
 1) Download the backend folder
-2) Create a .env file usign .sampleenv file which contain 
-   (before this register on cloudinary )
+2) Create a .env file using a .sampleenv file which contains 
+   (before this register on Cloudinary )
   
 MONGO_URI = mongodb://localhost:27017  
 JWT_SECRET= secret token  
@@ -26,10 +26,10 @@ NODE_ENV = DEVELOPMENT
 CLIENT_URL = http://localhost:3000
 
 CLOUDINARY_CLOUD_NAME= cloud name   
-CLOUDINARY_API_KEY = api key    
-CLOUDINARY_API_SECRET =  api secret key
+CLOUDINARY_API_KEY = API key    
+CLOUDINARY_API_SECRET =  API secret key
 
-3) Run the mongodb databse on localhost
+3) Run the MongoDB database on localhost
 4) do the "npm install" this will install all the dependency
 5) Enter the command "npm run dev" 
 
